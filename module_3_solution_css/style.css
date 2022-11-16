@@ -1,0 +1,79 @@
+body {
+    color: rgb(50, 53, 6);
+}
+.navbar{
+    box-shadow: 0 5px 10px rgb(209, 123, 123);
+}
+
+.navbar-brand {
+    font-weight: 900;
+    font-size: 50px;
+    color: rgba(221, 238, 221, 0.568);
+}
+
+*{
+    box-sizing: border-box;
+}
+.navbar{
+    box-shadow: 2px green;
+}  
+
+
+ .nav-link{
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+} 
+
+.navbar-nav hr{ 
+    border: 2px solid rgb(181, 223, 104);
+    border-radius: 5px;
+}
+
+.nav-link:hover{
+    color: rgb(197, 240, 129);
+    
+}
+
+h1 {
+    
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.navbar-toggler  {
+    color: rgb(209, 238, 152);
+}
+.navbar-toggler-icon{
+    color: rgb(40, 54, 11);
+    
+}
+
+.write-up{
+    background-color: rgb(238, 143, 143);
+    margin: 10px;
+}
+
+.write-up h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: px;
+}
+
+.write-up p {
+    margin: 40px;
+    
+}
+
+.navbarNav{
+    color: blue;
+}
+
+@media (max-width: 575.98px) { 
+    .write-up {
+        margin: 50px;
+    }
+
+ }
